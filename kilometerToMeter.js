@@ -4,7 +4,7 @@ function kilometerToMeter(kilometer) {
     return meter   
    }
    else{
-       console.log('kilometer Cannot Be Negative');
+       console.log('kilometer Cannot Be Zero or Negative');
    }
 }
 var result = kilometerToMeter(0)

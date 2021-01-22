@@ -10,7 +10,7 @@ function budgetCalculator(mobile, watch, laptop) {
         return total;
     }
     else {
-        console.log('Price Cannot be Negative');
+        console.log('Price Cannot be Zero or Negative');
     }
 
 

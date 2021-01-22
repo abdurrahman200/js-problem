@@ -7,7 +7,7 @@ function kilometerToMeter(kilometer) {
         return meter
     }
     else {
-        console.log('kilometer Cannot Be Negative');
+        console.log('kilometer Cannot Be Zero or Negative');
     }
 }
 var result = kilometerToMeter(0)
@@ -26,7 +26,7 @@ function budgetCalculator(mobile, watch, laptop) {
         return total;
     }
     else {
-        console.log('Price Cannot be Negative');
+        console.log('Price Cannot be  Zero or Negative');
     }
 
 
@@ -57,7 +57,7 @@ function hotelCost(days) {
         return price
     }
     else {
-        console.log('Days Cannot Be Negative');
+        console.log('Days Cannot Be Zero or Negative');
     }
 }
 var result = hotelCost(52)

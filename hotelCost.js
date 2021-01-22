@@ -20,7 +20,7 @@ function hotelCost(days) {
         return price
     }
     else {
-        console.log('Days Cannot Be Negative');
+        console.log('Days Cannot Be Zero or Negative');
     }
 }
 var result = hotelCost(52)
